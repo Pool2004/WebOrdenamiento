@@ -1,0 +1,31 @@
+body{
+    color:rgb(0, 0, 0);
+    background-color:rgb(230, 247, 175);
+    font-size: 30px;
+    text-align: center;
+}
+
+#div1{
+    margin-bottom: 20px;
+}
+
+#fieldEntrada{
+    width:600px;
+    height:200px;
+    border-radius:10px;
+    border-color: rgb(0, 0, 0);
+    background: khaki;
+    color:#000000;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#fieldSalida{
+    width:600px;
+    height:200px;
+    border-radius:10px;
+    border-color: rgb(0, 0, 0);
+    background:#a2c0e7;
+    color:#000000;
+    margin: auto;
+}

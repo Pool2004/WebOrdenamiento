@@ -10,11 +10,25 @@
 </head>
 <body>
     <main>
-        <caption>Scoreboard</caption>
+        <div id="div1"><caption>Tablero de resultados</caption></div>
 
+        <fieldset id="fieldEntrada">
+            <legend>Entrada</legend>
+            <button id="ingresar">Ingresar</button>
+            <textarea id="entrada" cols="80" rows="8"></textarea>
+        </fieldset>
 
-
-
+        <fieldset id="fieldSalida">
+            <legend>Orden por criterios</legend>
+            <button id="ordenar">Ordenar</button>
+            <select name="" id="elOrden">
+                <!--Opciones de la lista-->
+                <option value = "Orden1" selected>N° problemas resueltos</option>
+                <option value = "Orden2" >Tiempo de penalización</option>
+                <option value = "Orden3" >Concursante</option>
+            </select>
+            <textarea id="salida" cols="80" rows="8" readonly>....</textarea>
+        </fieldset>
     </main>
 </body>
 </html>
