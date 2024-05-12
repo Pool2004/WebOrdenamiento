@@ -11,18 +11,18 @@ body{
 
 #fieldEntrada{
     width:600px;
-    height:200px;
+    height:615px;
     border-radius:10px;
     border-color: rgb(0, 0, 0);
     background: khaki;
     color:#000000;
     margin: auto;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 #fieldSalida{
     width:600px;
-    height:200px;
+    height:530px;
     border-radius:10px;
     border-color: rgb(0, 0, 0);
     background:#a2c0e7;
